@@ -9,72 +9,78 @@
   </head>
   <body>
     <header>
-	  <nav>
-	    <ul>
-		  <li><a href="#contacts" >Contacts</a></li>
-		  <li><a href="#summary" >Summary</a></li>
-		  <li><a href="#skils" >Skils</a></li>
-		  <li><a href="#code" >Code</a></li>
-		  <li><a href="#education" >Education</a></li>
-		  <li><a href="#english" >English</a></li>
-		</ul>  
-	  </nav>
+	  <div class="container">
+		  <nav class="nav">
+			<ul class="nav-list">
+			  <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+			  <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+			  <li class="nav-item"><a href="#skils" class="nav-link">Skils</a></li>
+			  <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+			  <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+			  <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+			</ul>  
+		  </nav>
+		</div>  
 	</header>
 	<main>
-	  <section class="section">
-	    <img alt="my photo" src="assets/photo.jpeg">
-		<h1>Aliaksey Chyrykau</h1>
-	  </section>
-	  <section class="section" id="contacts">
-	    <h2>Contacts</h2>
-		<ul>
-		 <li>Belarus, Vitebsk</li>
-		 <li>Email: <a href="mailto:L_chr@mail.ru" title="email">L_chr@mail.ru</a></li>
-		</ul>
-	  </section>
-	  <section class="section" id="summary">
-	    <h2>Summary</h2>
-		<p>Hello! A'm Alex. A live in Belarus in Vitebsk.</p>
-	  </section>
-	  <section class="section" id="skils">
-	    <h2>Skils</h2>
-		<ul>
-		  <li>Html</li>
-		  <li>Css</li>
-		  <li>JavaScript</li>
-		  <li>Java</li>
-		</ul>
-	  </section>
-	  <section class="section" id="code">
-	    <h2>Code</h2>
-		<pre><code>
-        public class Main {
-		    public static void main(String[] args) {
-			    Run run = new Run();
-			    run.start();
-			}
-         }			
-		</code></pre>
-	  </section>
-	  <section class="section" id="Education">
-	    <h2>Education</h2>
-		<p>Vitebsk State University</p>
-	  </section>
-	  <section class="section" id="english">
-	    <h2>English</h2>
-		<p>A1 - Beginer</p>
-	  </section>
+	  <div class="container main-container">
+		  <section class="section">
+			<img alt="my photo" src="assets/photo.jpeg" class="avatar">
+			<h1>Aliaksey Chyrykau</h1>
+		  </section>
+		  <section class="section" id="contacts">
+			<h2>Contacts</h2>
+			<ul>
+			 <li>Belarus, Vitebsk</li>
+			 <li>Email: <a href="mailto:L_chr@mail.ru" title="email">L_chr@mail.ru</a></li>
+			</ul>
+		  </section>
+		  <section class="section" id="summary">
+			<h2>Summary</h2>
+			<p>Hello! A'm Alex. A live in Belarus in Vitebsk.</p>
+		  </section>
+		  <section class="section" id="skils">
+			<h2>Skils</h2>
+			<ul>
+			  <li>Html</li>
+			  <li>Css</li>
+			  <li>JavaScript</li>
+			  <li>Java</li>
+			</ul>
+		  </section>
+		  <section class="section" id="code">
+			<h2>Code</h2>
+			<pre><code>
+			public class Main {
+				public static void main(String[] args) {
+					Run run = new Run();
+					run.start();
+				}
+			 }			
+			</code></pre>
+		  </section>
+		  <section class="section" id="Education">
+			<h2>Education</h2>
+			<p>Vitebsk State University</p>
+		  </section>
+		  <section class="section" id="english">
+			<h2>English</h2>
+			<p>A1 - Beginer</p>
+		  </section>
+		</div>  
 	</main>
 	<footer>
-	  <div>
-	    <a href="https://rs.school/js/"><img src="assets/RS_logo.png" alt="rs_logo"></a>
-	  </div>
-	  <div>
-	    <p>2023</p>
-	  </div>
-	  <div>
-	    <a href="https://github.com/AliakseiChyrykau/"><img src="assets/Git_logo.png" alt="git_logo"></a>
-	  </div>
+	  <div class="container footer-container">
+		  <div>
+			<a href="https://rs.school/js/" class="rss"><img src="assets/RS_logo.png" alt="rs_logo" class="rss"></a>
+		  </div>
+		  <div>
+			<p>2023</p>
+		  </div>
+		  <div>
+			<a href="https://github.com/AliakseiChyrykau/"><img src="assets/Git_logo.png" alt="git_logo" class="git"></a>
+		  </div>
+		</div>  
 	</footer>
   </body>
 </html>
