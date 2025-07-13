@@ -42,7 +42,8 @@ header {
 }
 
 .main-right{
-  width: 70%;	
+  width: 50%;	
+  padding-left: 10px;
 }
 
 .nav-list {
